@@ -48,11 +48,11 @@ public class NetworkPrinterHelper {
                 printJob.write(lCentered.getBytes());
                 printJob.write(imageBytes);
 
-                line= "Another Image";
-                charWidth=1;
-                lCentered=" ".repeat((48-line.length()*charWidth)/(2*charWidth))+line+"\n";
-                printJob.write(lCentered.getBytes());
-                printJob.write(imageBytes);// Bitmap command payload
+//                line= "Another Image";
+//                charWidth=1;
+//                lCentered=" ".repeat((48-line.length()*charWidth)/(2*charWidth))+line+"\n";
+//                printJob.write(lCentered.getBytes());
+//                printJob.write(imageBytes);// Bitmap command payload
 
 
                 printJob.write(new byte[]{29, 86, 66, 20}); // paper cut
