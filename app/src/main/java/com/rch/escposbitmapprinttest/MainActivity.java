@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 this,           // Activity Context
                 printerIp,      // Target Printer IP
                 printerPort,    // Port 4617
-                "image3.bmp",     // Image inside assets/
-                384             // 384px for 58mm printer roll
+                "xxx.bmp",     // Image inside assets/
+                576             // 384px for 58mm printer roll
         );
     }
 }
